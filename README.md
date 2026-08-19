@@ -69,5 +69,3 @@ export default tseslint.config([
     },
   },
 ])
-```
->>>>>>> 99e8126 (Initial commit)
