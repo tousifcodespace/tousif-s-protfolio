@@ -150,15 +150,22 @@ export const HeroSection = () => {
                 <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:12px_12px] pointer-events-none" />
 
                 {/* Profile Photo with Dual Glowing Ring */}
-                <div className="mt-1 relative w-28 h-28 rounded-full p-1 bg-gradient-to-tr from-cyan-400 via-primary to-purple-400 backdrop-blur-md shadow-2xl border border-white/50 overflow-hidden group">
-                  <img 
-                    src={profilePhoto} 
-                    alt="Tousif Rahman" 
-                    className="w-full h-full object-cover rounded-full filter contrast-105"
-                    loading="eager"
-                  />
-                  <div className="absolute bottom-1 right-2 w-4 h-4 rounded-full bg-emerald-500 border-2 border-white shadow-md" />
-                </div>
+                <div className="mt-1 relative w-28 h-28 group">
+                    {/* Rotating gradient ring */}
+                    <div className="absolute inset-0 rounded-full bg-[conic-gradient(from_0deg,_#22d3ee,_#8b5cf6,_#c084fc,_#22d3ee)] animate-[spin_6s_linear_infinite] shadow-2xl" />
+
+                    {/* Image (zoomed out a bit) */}
+                    <div className="absolute inset-1 rounded-full overflow-hidden border border-white/50 bg-gradient-to-br from-orange-700 via-red-800 to-neutral-950">
+                      <img 
+                        src={profilePhoto} 
+                        alt="Md. Tousif Rahman" 
+                        className="w-full h-full object-cover filter contrast-105"
+                        loading="eager"
+                      />
+                    </div>
+
+                    <div className="absolute bottom-2 right-2 w-5 h-5 rounded-full bg-emerald-500 border-2 border-white shadow-md z-10" />
+                  </div>
               </div>
 
               {/* Card Body */}
