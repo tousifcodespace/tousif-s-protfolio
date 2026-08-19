@@ -1,3 +1,4 @@
+import { GithubActivitySection } from "../GithubSection/GithubActivitySection";
 import SkillCategory from "./SkillCategory";
 import { motion } from "framer-motion";
 import { GraduationCap, BookOpen, Award, CheckCircle2, Calendar, Building2, Sparkles } from "lucide-react";
@@ -7,8 +8,8 @@ export const EducationSection = () => {
   const education = [
     {
       degree: "B.Sc. in Computer Science & Engineering",
-      school: "Varendra University",
-      year: "2024 – Present",
+      school: "University of the People",
+      year: "2025 – Present",
       badge: "In Progress",
       badgeIcon: Sparkles,
       badgeColor: "text-primary bg-primary/10 border-primary/30",
@@ -22,7 +23,7 @@ export const EducationSection = () => {
     {
       degree: "Higher Secondary Certificate (HSC)",
       school: "Sardah Government College",
-      year: "2019 – 2021",
+      year: "2020 – 2022",
       badge: "Completed",
       badgeIcon: CheckCircle2,
       badgeColor: "text-emerald-400 bg-emerald-500/10 border-emerald-500/30",
@@ -34,7 +35,7 @@ export const EducationSection = () => {
     {
       degree: "Secondary School Certificate (SSC)",
       school: "Bonkishore High School",
-      year: "2013 – 2019",
+      year: "2014 – 2020",
       badge: "Completed",
       badgeIcon: CheckCircle2,
       badgeColor: "text-emerald-400 bg-emerald-500/10 border-emerald-500/30",
@@ -140,6 +141,10 @@ export const EducationSection = () => {
         <SkillCategory />
       </div>
 
+      {/* GitHub Activity Component */}
+      <div>
+        <GithubActivitySection />
+      </div>
     </section>
   );
 };

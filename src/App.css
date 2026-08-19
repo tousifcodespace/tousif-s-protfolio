@@ -37,6 +37,11 @@
   font-family: "Geist Sans", sans-serif !important;
 }
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
 
-
-
+#root {
+  overflow-x: hidden;
+}
