@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Code2, Globe2, Layout, Users } from "lucide-react";
 
 const stats = [
-  { icon: <Layout className="w-6 h-6" />, label: "Years of Experience", value: "4+" },
+  { icon: <Layout className="w-6 h-6" />, label: "Years of Experience", value: "2+" },
   { icon: <Code2 className="w-6 h-6" />, label: "Live Products Built", value: "2" },
   { icon: <Users className="w-6 h-6" />, label: "Roles: Design + Dev", value: "2" },
   { icon: <Globe2 className="w-6 h-6" />, label: "Tech Stack Tools", value: "10+" },

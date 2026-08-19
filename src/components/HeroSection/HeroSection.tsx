@@ -158,7 +158,7 @@ export const HeroSection = () => {
                     <div className="absolute inset-1 rounded-full overflow-hidden border border-white/50 bg-gradient-to-br from-orange-700 via-red-800 to-neutral-950">
                       <img 
                         src={profilePhoto} 
-                        alt="Md. Tousif Rahman" 
+                        alt="Tousif Rahman" 
                         className="w-full h-full object-cover filter contrast-105"
                         loading="eager"
                       />
@@ -187,11 +187,11 @@ export const HeroSection = () => {
                   </div>
                   <div>
                     <span className="text-muted-foreground block text-[9px] uppercase tracking-widest font-bold">Location</span>
-                    <span className="font-bold text-foreground text-xs">Rajshahi, Bangladesh</span>
+                    <span className="font-bold text-foreground text-xs">Dhaka, Bangladesh</span>
                   </div>
                   <div>
                     <span className="text-muted-foreground block text-[9px] uppercase tracking-widest font-bold">Experience</span>
-                    <span className="font-bold text-foreground text-xs">4+ Years</span>
+                    <span className="font-bold text-foreground text-xs">2+ Years</span>
                   </div>
                   <div>
                     <span className="text-muted-foreground block text-[9px] uppercase tracking-widest font-bold">Status</span>
